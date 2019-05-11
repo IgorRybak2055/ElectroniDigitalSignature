@@ -44,8 +44,3 @@ def murmur3(data, seed = 21):
     return h1 & 0xffffffff
 
 
-# if __name__ == '__main__':
-#     msg = input('Enter: ')
-#     out = murmur3(msg, 21)
-#     print('Hash:', hex(out))
-
